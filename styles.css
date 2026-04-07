@@ -1,0 +1,46 @@
+.smart-highlight {
+  position: relative;
+  display: inline;
+  padding: 0 2px;
+  border-radius: 3px;
+}
+
+.smart-highlight-light {
+  background-color: #d9f7be;
+}
+
+.smart-highlight-dark {
+  background-color: #95de64;
+}
+
+/* 自动高频词：浅黄 → 黄 → 深黄偏橙 → 橘 → 深橘 */
+.smart-highlight-auto-1 {
+  background-color: #fff9b1;
+}
+
+.smart-highlight-auto-2 {
+  background-color: #fff566;
+}
+
+.smart-highlight-auto-3 {
+  background-color: #ffe58f;
+}
+
+.smart-highlight-auto-4 {
+  background-color: #ffd666;
+}
+
+.smart-highlight-auto-5 {
+  background-color: #ffc53d;
+}
+
+.smart-highlight-badge {
+  position: relative;
+  display: inline-block;
+  margin-left: 2px;
+  top: -0.45em;
+  font-size: 10px;
+  line-height: 1;
+  color: #333;
+  vertical-align: top;
+}
